@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+  <ul>
+      <li><h2><a href="index.html">Digital Talent</a></h2></li>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+    </div>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Programming</a>
+        <div class="dropdown-content">
+          <a href="#php">PHP</a>
+        <a href="#asp">ASP</a>
+        <a href="#ajax">AJAX</a>
+        <a href="#jquery">jQuery</a>
+        <a href="#mysql">MySql</a>
+        <a href="#css">CSS</a>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="dropbtn">Software</a>
+      <div class="dropdown-content">
+        <a href="#xampp">Xampp</a>
+      <a href="#npp">Notepad ++</a>
+      <a href="#sblme">Sublime</a>
+      <a href="#browser">Browser</a>
+    </div>
+    </li>
+  </ul>
+
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>
